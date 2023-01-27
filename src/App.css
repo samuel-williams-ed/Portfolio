@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.dev-area{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.dev-page-container {
+  background-color: brown;
+
+  padding: 0.4em;
+  margin: 0.3em;
+
+  border-radius: 0.3em;
+}
+
+/* .dev-profile-pic-container{
+  height: 8em;
+} */
+
+.dev-profile-pic {
+  width: 3em;
+  height: 8em;
+  background-color: rgb(9, 128, 233);
+
+  border-radius: 0.3em;
+}
+
+.dev-profile-name{
+  margin: 0.2em;
+}
