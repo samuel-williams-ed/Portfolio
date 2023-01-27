@@ -14,13 +14,41 @@ const HomePage = () => {
         {name:"Elio Jordan Lopez", url:"https://developer.vercel.app/work", img:"images/ElioJordanLopez.png"}])
     const [friends, setFriends] = useState([])
 
+
+
+    // ######################### //
+    // ######### html ########## //
+    // ######################### //
+
     return (
         <>
-        <h1>Welcome. This area in in progress...</h1>
-        <p></p>
+        <h1>Welcome. This area is in progress...</h1>
+
+        <div className="space-holder">
+
+            <div className="empty-space"/>
+            <div className="empty-space"/>
+            <div className="empty-space"/>
+            <p>One day, there will be a beautiful array of porfolio pieces.</p>
+            <div className="empty-space"/>
+            <div className="empty-space"/>
+            <div className="empty-space"/>
+            <div className="empty-space"/>
+            <p className="full-width">right here.</p>
+            <div className="empty-space"/>
+            <div className="empty-space"/>
+            <div className="empty-space"/>
+        </div>
+
 
         <p><i>In the meantime, check out these awesome developers:</i></p>
+        
+        <div className="space-holder">
+            <div className="empty-space"/>
             <DevArea devs={devs}/>
+            <div className="empty-space"/>
+        </div>
+            
         </>
     )
 }

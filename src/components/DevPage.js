@@ -29,7 +29,7 @@ const DevPage = ({dev}) => {
                     <img className="dev-profile-pic" src={getImage()} alt="Profile picture of a developer"></img>
                 </div>
                 <p className="dev-profile-name">
-                    {dev.name} Profile:
+                    {dev.name}
                 </p>
             </div>
         </a>
