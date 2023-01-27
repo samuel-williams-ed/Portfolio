@@ -37,6 +37,10 @@
   }
 }
 
+a {
+  text-decoration: none;
+}
+
 .dev-area{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -51,13 +55,13 @@
   border-radius: 0.3em;
 }
 
-/* .dev-profile-pic-container{
-  height: 8em;
-} */
+.dev-page-container:hover {
+  background-color: rgba(136, 168, 196, 0.51);
+}
 
 .dev-profile-pic {
-  width: 3em;
-  height: 8em;
+  width: 6em;
+  height: 4em;
   background-color: rgb(9, 128, 233);
 
   border-radius: 0.3em;
@@ -65,4 +69,8 @@
 
 .dev-profile-name{
   margin: 0.2em;
+}
+
+span {
+  background-color: rgba(136, 168, 196, 0.51);
 }

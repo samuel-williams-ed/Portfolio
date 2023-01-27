@@ -9,16 +9,17 @@ const HomePage = () => {
     */
 
     const [devs, setDevs] = useState([
-        {name:"Ben Rogers", url:"https://benrogers.dev", img:"/assets/images/ElioJordanLopez.png"}, 
-        {name:"Ali Spittel", url:"https://alispit.tel", img:"/assets/images/ElioJordanLopez.png"},
-        {name:"Elio Jordan Lopez", url:"https://developer.vercel.app/work", img:"/assets/images/ElioJordanLopez.png"}])
+        {name:"Ben Rogers", url:"https://benrogers.dev", img:"images/ElioJordanLopez.png"}, 
+        {name:"Ali Spittel", url:"https://alispit.tel", img:"images/ElioJordanLopez.png"},
+        {name:"Elio Jordan Lopez", url:"https://developer.vercel.app/work", img:"images/ElioJordanLopez.png"}])
     const [friends, setFriends] = useState([])
 
     return (
         <>
+        <h1>Welcome. This area in in progress...</h1>
+        <p></p>
 
-
-        <p>Dev Area:</p>
+        <p><i>In the meantime, check out these awesome developers:</i></p>
             <DevArea devs={devs}/>
         </>
     )

@@ -1,13 +1,17 @@
 import DevPage from "./DevPage"
+import styled from "styled-components"
 
 
 const CoolLinks = ({dev}) => {
     return (
-        <section>
-            <p>CoolLink:</p>
+        <Section>
             <DevPage dev={dev}/>
-        </section>
+        </Section>
     )
 }
 
 export default CoolLinks
+
+const Section = styled.section`
+
+`

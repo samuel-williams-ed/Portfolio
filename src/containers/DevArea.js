@@ -1,10 +1,12 @@
 import CoolLinks from "../components/CoolLinks"
 
+
 const DevArea = ({devs}) => {
 
 
-    const renderDevs = devs.map((dev) => {
-        return (<CoolLinks dev={dev}/>)
+    const renderDevs = devs.map((dev, index) => {
+        return (<CoolLinks key={index} dev={dev}/>)
+        // TODO refactor with suitable key
     })
 
     return (
@@ -17,3 +19,4 @@ const DevArea = ({devs}) => {
 }
 
 export default DevArea
+
