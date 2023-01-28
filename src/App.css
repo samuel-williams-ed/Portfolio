@@ -37,15 +37,9 @@
   }
 }
 
-body {
-  /* padding: 2em; */
-  /* background-color: #02161c0c; */
-
-}
-
 a {
   text-decoration: none;
-  color: black;
+  color: rgba(136, 168, 196, 0.51);
 }
 
 .dev-area{
@@ -60,6 +54,7 @@ a {
 
 .dev-card-container {
   background-color: black;
+  color:rgba(136, 168, 196, 0.51);
   padding: 0.1em;
   margin: 0.4em;
 
@@ -70,6 +65,7 @@ a {
 }
 
 .dev-card-container:hover {
+  color: white;
   background-color: rgba(136, 168, 196, 0.51);
   box-shadow: 0.2em 0.4em 5px #7b7e84ca;
 }
@@ -87,14 +83,12 @@ a {
   max-width: 22vw;
   max-height: 30vh;
   background-color: rgb(9, 128, 233);
-
-
 }
 
 .dev-profile-name{
   margin: 0.2em;
   padding: 0.2em;
-  color:rgba(136, 168, 196, 0.51);
+  color: inherit;
   font-weight: bold;
 }
 .full-width{
