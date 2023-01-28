@@ -11,9 +11,9 @@ const DevArea = ({devs}) => {
 
     return (
         <>
-            <div className="dev-area">
+            <section className="dev-area">
                 {renderDevs}
-            </div>
+            </section>
         </>
     )
 }

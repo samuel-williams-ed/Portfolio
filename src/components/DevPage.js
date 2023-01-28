@@ -23,16 +23,17 @@ const DevPage = ({dev}) => {
     // const relativePath = "src/images/ElioJordanLopez.png"
 
     return (
-        <a href={dev.url} alt="Ben Rogers Profile">
-            <div className="dev-page-container">
+        
+        <div className="dev-card-container">
+            <a href={dev.url} alt="Ben Rogers Profile">
                 <div className="dev-profile-pic-container">
                     <img className="dev-profile-pic" src={getImage()} alt="Profile picture of a developer"></img>
                 </div>
                 <p className="dev-profile-name">
                     {dev.name}
                 </p>
-            </div>
-        </a>
+            </a>
+        </div>
     )
 }
 

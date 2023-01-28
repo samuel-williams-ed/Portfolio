@@ -21,7 +21,7 @@ const width = 50;
 const IconComp = () => {
 
     return (
-        <section className="icon-container">
+        <section className="icon-container float">
                 <span className="icon"><InlineIcon icon={javascriptIcon} height={height} width={width}/></span>
                 <span className="icon"><InlineIcon icon={nodejsIcon} height={height} width={width}/></span>
                 <span className="icon"><InlineIcon icon={reactIcon} height={height} width={width}/></span>
