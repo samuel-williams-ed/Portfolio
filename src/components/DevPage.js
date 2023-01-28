@@ -1,15 +1,15 @@
-import imageElio from "../images/ElioJordanLopez.png";
-import imageAli from "../images/AliSpittel.png";
-import imageBen from "../images/BenRogers.png";
+import imageElio from "../images/ElioJordanL.png";
+import imageAli from "../images/AliS.png";
+import imageBen from "../images/BenR.png";
 // TODO - avoid importing all art assets
 
 
 const DevPage = ({dev}) => {
 
 
-    const imageElio = require("../images/ElioJordanLopez.png")
-    const imageAli = require("../images/AliSpittel.png")
-    const imageBen = require("../images/BenRogers.png")
+    const imageElio = require("../images/ElioJordanL.png")
+    const imageAli = require("../images/AliS.png")
+    const imageBen = require("../images/BenR.png")
     const getImage = () => {
         if (dev.name === "Ben Rogers") {return imageBen}
         else if (dev.name === "Ali Spittel") {return imageAli}
