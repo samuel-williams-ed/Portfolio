@@ -110,3 +110,15 @@ a {
   height: 5vh;
   width: 100%;
 }
+
+.icon-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.icon {
+  margin: 1em;
+  flex-grow: 1;
+}
