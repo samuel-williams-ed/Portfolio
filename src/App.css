@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .App-logo {
@@ -136,11 +139,13 @@ a {
 }
 
 .background-thread {
-  background-image: linear-gradient(to right, #ffffff 64%, #ffffffaf, #ffffff 80%),url("/Users/user/codeclan_work/git_portfolio/src/images/chevrons_full_width.png");
+  background-image: linear-gradient(to right, #ffffff 54%, #ffffffaf, #ffffff 80%), url("/Users/user/codeclan_work/git_portfolio/src/images/chevrons_full_width.png");
+  background-repeat: repeat-y;
   filter: grayscale(20%);
   /* drop-shadow(1em 2em 2em black inset); */
   background-attachment: fixed;
-  background-position-x: 90%;
+  background-position-x: 33%;
+  background-size: 100%;
 }
 
 h1 {
