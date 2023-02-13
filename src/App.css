@@ -139,13 +139,16 @@ a {
 }
 
 .background-thread {
-  background-image: linear-gradient(to right, #ffffff 54%, #ffffffaf, #ffffff 80%), url("/Users/user/codeclan_work/git_portfolio/src/images/chevrons_full_width.png");
+  background-image: linear-gradient(to right, #ffffff 54%, #9a71719d, #ffffff 80%), url("/Users/user/codeclan_work/git_portfolio/src/images/chevrons_full_width.png");
   background-repeat: repeat-y;
   filter: grayscale(20%);
   /* drop-shadow(1em 2em 2em black inset); */
   background-attachment: fixed;
   background-position-x: 33%;
   background-size: 100%;
+
+  /* dark theme */
+  /* background-image: linear-gradient(to right, black 54%, #221b1bdb, black 80%), url("/Users/user/codeclan_work/git_portfolio/src/images/chevrons_full_width.png"); */
 }
 
 h1 {
