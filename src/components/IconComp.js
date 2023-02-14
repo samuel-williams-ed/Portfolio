@@ -18,7 +18,7 @@ import gitIcon from '@iconify/icons-logos/git'
 const height = 50;
 const width = 50;
 
-const IconComp = () => {
+const IconComponent = () => {
 
     return (
         <section className="icon-container float">
@@ -35,4 +35,4 @@ const IconComp = () => {
     )
 }
 
-export default IconComp
+export default IconComponent

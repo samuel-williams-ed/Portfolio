@@ -1,6 +1,6 @@
 import DevArea from "./DevArea"
 import { useState } from "react"
-import IconComp from "../components/IconComp"
+import IconComponent from "../components/IconComp"
 import chevrons from "../images/chevrons_full_width.png"
 
 const HomePage = () => {
@@ -33,12 +33,13 @@ const HomePage = () => {
                 <div className="empty-space"/>
                 <p className="float">One day, there will be a beautiful array of portfolio pieces.</p>
                 <div className="empty-space"/>
-                <IconComp/>
+                <IconComponent/>
                 <div className="empty-space"/>
                 <p className="float">right here.</p>
                 <div className="empty-space"/>
                 <div className="empty-space"/>
             </div>
+
             <h2><i>In the meantime, check out these awesome developers:</i></h2>
             
             <div className="space-holder">
