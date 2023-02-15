@@ -141,7 +141,7 @@ a {
 }
 
 .background-thread {
-  background-image: linear-gradient(to right, #ffffff 54%, #9a71719d, #ffffff 80%), url("/Users/user/codeclan_work/git_portfolio/src/images/chevrons_full_width.png");
+  background-image: linear-gradient(to right, #ffffff 54%, #8b7c7c9d, #ffffff 80%), url("/Users/user/codeclan_work/git_portfolio/src/images/chevrons_full_width.png");
   background-repeat: repeat-y;
   filter: grayscale(20%);
   /* drop-shadow(1em 2em 2em black inset); */
