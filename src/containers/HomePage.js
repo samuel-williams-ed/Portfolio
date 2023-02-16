@@ -12,16 +12,16 @@ const HomePage = () => {
     */
 
     const [devs, setDevs] = useState([
-        {name:"Ben Rogers", url:"https://benrogers.dev", img:"images/ElioJordanLopez.png"}, 
-        {name:"Ali Spittel", url:"https://alispit.tel", img:"images/ElioJordanLopez.png"},
-        {name:"Elio Jordan Lopez", url:"https://developer.vercel.app/work", img:"images/ElioJordanLopez.png"}])
+        {name:"Ben Rogers", url:"https://benrogers.dev"}, 
+        {name:"Ali Spittel", url:"https://alispit.tel"},
+        {name:"Elio Jordan Lopez", url:"https://developer.vercel.app/work"}
+    ])
     const [friends, setFriends] = useState([])
 
     const [projects, setProjects] = useState([
-        {name: "", url:"", img:""},
-        {name: "", url:"", img:""},
-        {name: "", url:"", img:""},
-        {name: "", url:"", img:""}
+        {name: "Kanye quiz", url:"https://samuel-williams-ed.github.io/Quiz_React_Project/", img:""},
+        {name: "TopTrumpsMMA", url:"", img:""},
+        {name: "CodeTraveller", url:"https://samuel-williams-ed.github.io/Week_07_Traveller_Project/", img:""}
     ])
 
 
@@ -29,12 +29,15 @@ const HomePage = () => {
     // ######### html ########## //
     // ######################### //
 
+    let fullURL = "Portfolio/static/media/" + devs[0].img 
+
     return (
         <>
         <div className="background-thread">
             <h1>Welcome. This area is in progress...</h1>
             <div className="space-holder">
                 <div className="empty-space"/>
+                <img src={fullURL} alt="developer profile pic"></img>
 
                 {/* lets sort this bit */}
                 {/* projects in here */}
