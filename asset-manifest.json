@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b86e7368.css",
-    "main.js": "/Portfolio/static/js/main.e973f119.js",
+    "main.css": "/Portfolio/static/css/main.e6eeb3b3.css",
+    "main.js": "/Portfolio/static/js/main.3d638bc7.js",
     "static/js/787.bb59487b.chunk.js": "/Portfolio/static/js/787.bb59487b.chunk.js",
+    "static/media/TopTrumpsMMAScreenshot.png": "/Portfolio/static/media/TopTrumpsMMAScreenshot.2ed4661bba5cb2061b0b.png",
+    "static/media/CodeTravellerScreenshot.png": "/Portfolio/static/media/CodeTravellerScreenshot.e2c8133526c1b9d664d8.png",
     "static/media/ElioJordanL.png": "/Portfolio/static/media/ElioJordanL.b790d69efd030b4e2bfe.png",
+    "static/media/kanyeQuizScreenshot.png": "/Portfolio/static/media/kanyeQuizScreenshot.2348ff7ea177b56eb3f2.png",
     "static/media/BenR.png": "/Portfolio/static/media/BenR.ca8d0993dc41b1ab2f5a.png",
     "static/media/AliS.png": "/Portfolio/static/media/AliS.343c7de17cf035a04d16.png",
     "static/media/chevrons_full_width.png": "/Portfolio/static/media/chevrons_full_width.af4636cb80f5c0244db0.png",
     "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
-    "main.b86e7368.css.map": "/Portfolio/static/css/main.b86e7368.css.map",
-    "main.e973f119.js.map": "/Portfolio/static/js/main.e973f119.js.map",
+    "main.e6eeb3b3.css.map": "/Portfolio/static/css/main.e6eeb3b3.css.map",
+    "main.3d638bc7.js.map": "/Portfolio/static/js/main.3d638bc7.js.map",
     "787.bb59487b.chunk.js.map": "/Portfolio/static/js/787.bb59487b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b86e7368.css",
-    "static/js/main.e973f119.js"
+    "static/css/main.e6eeb3b3.css",
+    "static/js/main.3d638bc7.js"
   ]
 }
