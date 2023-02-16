@@ -6,7 +6,6 @@ const DevArea = ({devs}) => {
 
     const renderDevs = devs.map((dev, index) => {
         return (<CoolLinks key={index} dev={dev}/>)
-        // TODO refactor with suitable key
     })
 
     return (

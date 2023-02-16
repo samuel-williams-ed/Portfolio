@@ -17,6 +17,12 @@ const HomePage = () => {
         {name:"Elio Jordan Lopez", url:"https://developer.vercel.app/work", img:"images/ElioJordanLopez.png"}])
     const [friends, setFriends] = useState([])
 
+    const [projects, setProjects] = useState([
+        {name: "", url:"", img:""},
+        {name: "", url:"", img:""},
+        {name: "", url:"", img:""},
+        {name: "", url:"", img:""}
+    ])
 
 
     // ######################### //
@@ -28,11 +34,16 @@ const HomePage = () => {
         <div className="background-thread">
             <h1>Welcome. This area is in progress...</h1>
             <div className="space-holder">
+                <div className="empty-space"/>
+
+                {/* lets sort this bit */}
+                {/* projects in here */}
+                {/* <p className="float">One day, there will be a beautiful array of portfolio pieces.</p> */}
                 
+                <DevArea devs={projects}></DevArea>
+
                 <div className="empty-space"/>
-                <div className="empty-space"/>
-                <p className="float">One day, there will be a beautiful array of portfolio pieces.</p>
-                <div className="empty-space"/>
+
                 <IconComponent/>
                 <div className="empty-space"/>
                 <p className="float">right here.</p>
