@@ -5,14 +5,8 @@ import chevrons from "../images/chevrons_full_width.png"
 
 const HomePage = () => {
 
-    /* devs
-    Object structure:
-    {name:"Ben Rogers", url:"https://benrogers.dev"}
-    https://gabrielthecode.com
-    */
-
     const [devs, setDevs] = useState([
-        {name:"Ben Rogers", url:"https://benrogers.dev"}, 
+        {name:"JohnPanton", url:"https://github.com/Jp2429/pokemon-personal-project"}, 
         {name:"Ali Spittel", url:"https://alispit.tel"},
         {name:"Elio Jordan Lopez", url:"https://developer.vercel.app/work"}
     ])
