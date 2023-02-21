@@ -50,7 +50,7 @@ const HomePage = () => {
                 <div className="empty-space"/>
             </div>
 
-            <h2><i>In the meantime, check out these awesome developers:</i></h2>
+            <h2 className="float"><i>In the meantime, check out these great developers:</i></h2>
             
             <div className="space-holder">
                 <div className="empty-space"/>
