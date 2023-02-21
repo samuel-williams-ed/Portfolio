@@ -17,7 +17,9 @@ code {
   --b-mid: #219ebc; /* Mid Blue */
   --b-main: #023047; /* Dark Blue */
   --b-main-shadow: #0230471f; /* Dark Blue v see through */
+  --b-main-mask: #023047f2; /* Dark Blue v see through */
   --t-highlight: #ffb703; /* Yellow */
   --t-alt: #fb8500; /* Orange */
+  --b-shadow: black;
   
 }

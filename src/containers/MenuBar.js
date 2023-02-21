@@ -4,7 +4,8 @@ const MenuBar = () => {
     return (
         <>
             <div className="menu-bar">
-                <h1>Welcome. This area is in progress...</h1>
+                <p>Welcome. This area is in progress...</p>
+                <div id="menu-button">Menu</div>
             </div>
         </>
     )
