@@ -2,6 +2,7 @@ import DevArea from "./DevArea"
 import { useState } from "react"
 import IconComponent from "../components/IconComp"
 import chevrons from "../images/chevrons_full_width.png"
+import MenuBar from "./MenuBar"
 
 const HomePage = () => {
 
@@ -18,7 +19,6 @@ const HomePage = () => {
         {name: "CodeTraveller", url:"https://samuel-williams-ed.github.io/Week_07_Traveller_Project/", img:""}
     ])
 
-
     // ######################### //
     // ######### html ########## //
     // ######################### //
@@ -27,11 +27,13 @@ const HomePage = () => {
 
     return (
         <>
+        <MenuBar/>
         <div className="background-thread">
-            <h1>Welcome. This area is in progress...</h1>
+            
             <div className="space-holder">
                 <div className="empty-space"/>
-                <img src={fullURL} alt="developer profile pic"></img>
+                <div className="empty-space"/>
+                <div className="empty-space"/>
 
                 {/* lets sort this bit */}
                 {/* projects in here */}

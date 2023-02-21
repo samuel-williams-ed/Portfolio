@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --b-highlight: #8ecae6; /* Light Blue */
+  --b-mid: #219ebc; /* Mid Blue */
+  --b-main: #023047; /* Dark Blue */
+  --b-main-shadow: #0230471f; /* Dark Blue v see through */
+  --t-highlight: #ffb703; /* Yellow */
+  --t-alt: #fb8500; /* Orange */
+  
+}
