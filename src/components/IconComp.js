@@ -19,19 +19,16 @@ const height = 50;
 const width = 50;
 
 const IconComponent = () => {
+    const listOfIcons = [javascriptIcon, nodejsIcon, reactIcon, pythonIcon, flaskIcon, postgresqlIcon, html5, css3, gitIcon]
+
+    const renderIcons = listOfIcons.map((eachIcon) => {
+        return (<span className="icon float"><InlineIcon icon={eachIcon} height={height} width={width}/></span>)
+    })
 
     return (
-        <section className="icon-container float">
-                <span className="icon"><InlineIcon icon={javascriptIcon} height={height} width={width}/></span>
-                <span className="icon"><InlineIcon icon={nodejsIcon} height={height} width={width}/></span>
-                <span className="icon"><InlineIcon icon={reactIcon} height={height} width={width}/></span>
-                <span className="icon"><InlineIcon icon={pythonIcon} height={height} width={width}/></span>
-                <span className="icon"><InlineIcon icon={flaskIcon} height={height} width={width}/></span>
-                <span className="icon"><InlineIcon icon={postgresqlIcon} height={height} width={width}/></span>
-                <span className="icon"><InlineIcon icon={html5} height={height} width={width}/></span>
-                <span className="icon"><InlineIcon icon={css3} height={height} width={width}/></span>
-                <span className="icon"><InlineIcon icon={gitIcon} height={height} width={width}/></span>
-        </section>
+        <>
+        {renderIcons}
+        </>
     )
 }
 
