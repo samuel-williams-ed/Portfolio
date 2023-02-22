@@ -88,17 +88,25 @@ a {
   padding: 0.5%;
   border-top-left-radius: 6vw;
   border-top-right-radius: 1.3vw;
+
+}
+.cover-link{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
 
 .dev-profile-pic {
   min-width: 8em;
   min-height: 6em;
   object-fit: cover;
+  background-position: center;
   background-color: var(--b-main-mask);
 
   scale: 1.1;
-  transform: translateX(4%);
-  transition: 0.2s linear scale, 0.8s linear transform;
+  /* transform: translateX(4%); */
+  transition: 0.1s linear scale, 0.8s linear transform;
 }
 
 .dev-card-container:hover .dev-profile-pic{
@@ -111,6 +119,7 @@ a {
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
+
 }
 .dev-profile-name{
   margin: 0.2em;

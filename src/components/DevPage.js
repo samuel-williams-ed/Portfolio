@@ -20,7 +20,7 @@ const DevPage = ({dev}) => {
     return (
         
         <div className="dev-card-container">
-            <a href={dev.url} alt={dev.alt}>
+            <a className="cover-link" href={dev.url} alt={dev.alt}>
                 <div className="dev-profile-pic-container">
                     <img className="dev-profile-pic" src={getImage()} alt="Profile picture of a developer"></img>
                 </div>
