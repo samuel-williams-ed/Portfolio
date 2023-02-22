@@ -26,9 +26,9 @@ const IconComponent = () => {
     })
 
     return (
-        <>
+        <div className="icon-container">
         {renderIcons}
-        </>
+        </div>
     )
 }
 

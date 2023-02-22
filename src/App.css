@@ -51,12 +51,9 @@ a {
 }
 
 .dev-area{
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr; */
   display: flex;
   justify-content: space-evenly;
-  /* vertical stretch - keep all at same height */
-  align-items: stretch;
+  align-content: space-evenly;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -65,11 +62,11 @@ a {
   background-color: var(--b-main);
   color: var(--t-highlight);
   padding: 0.1em;
-  margin: 0.4em;
+  margin: 4em;
   
   display: flex;
-  max-width: 44%;
-  align-items: center;
+  max-width: 40%;
+  align-content: center;
   overflow: scroll;
 
   border-radius: 1vw;
@@ -154,7 +151,8 @@ a {
 
 .icon {
   margin: 1em;
-  flex-grow: 1;
+  /* flex-grow: 1; */
+  flex-basis: 1;
 }
 
 .float {

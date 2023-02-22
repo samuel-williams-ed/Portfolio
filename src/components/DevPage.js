@@ -1,22 +1,20 @@
-import imageElio from "../images/ElioJordanL.png";
+import ImageJohn from "../images/JohnPantonScreenshot.png";
 import imageAli from "../images/AliS.png";
-import imageBen from "../images/BenR.png";
+import imageElio from "../images/ElioJordanL.png";
 import quizImage from "../images/kanyeQuizScreenshot.png"
 import TopTrumpsImage from "../images/TopTrumpsMMAScreenshot.png"
 import codeTravellerImage from "../images/CodeTravellerScreenshot.png"
-// TODO - avoid importing all art assets
 
 
 const DevPage = ({dev}) => {
 
     const getImage = () => {
-        if (dev.name === "Ben Rogers") {return imageBen}
+        if (dev.name === "John Panton") {return ImageJohn}
         else if (dev.name === "Ali Spittel") {return imageAli}
         else if (dev.name === "Elio Jordan Lopez") {return imageElio}
         else if (dev.name === "Kanye quiz") {return quizImage}
         else if (dev.name === "TopTrumpsMMA") {return TopTrumpsImage}
         else if (dev.name === "CodeTraveller") {return codeTravellerImage}
-        // else if (dev.name === "") {return quizImage}
     }
 
     return (

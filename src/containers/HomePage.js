@@ -7,7 +7,7 @@ import MenuBar from "./MenuBar"
 const HomePage = () => {
 
     const [devs, setDevs] = useState([
-        {name:"JohnPanton", url:"https://github.com/Jp2429/pokemon-personal-project", alt:"Screenshot of John Panton's website"}, 
+        {name:"John Panton", url:"https://jp2429.github.io/pokemon-personal-project/", alt:"Screenshot of John Panton's website"}, 
         {name:"Ali Spittel", url:"https://alispit.tel", alt:"Screenshot of Ali Spittel's website"},
         {name:"Elio Jordan Lopez", url:"https://developer.vercel.app/work", alt:"Screenshot of Elio Jordan Lopez's website"}
     ])
@@ -45,12 +45,11 @@ const HomePage = () => {
 
                 <IconComponent/>
                 <div className="empty-space"/>
-                <p className="float">right here.</p>
                 <div className="empty-space"/>
                 <div className="empty-space"/>
             </div>
 
-            <h2 className="float"><i>In the meantime, check out these great developers:</i></h2>
+            <h2 className="float"><i>Check out these great developers:</i></h2>
             
             <div className="space-holder">
                 <div className="empty-space"/>
