@@ -22,5 +22,6 @@ code {
   --t-highlight: #ffb703; /* Yellow */
   --t-alt: #fb8500; /* Orange */
   --b-shadow: black;
+  --b-mid-shadow: rgba(0, 0, 0, 0.500);
   
 }

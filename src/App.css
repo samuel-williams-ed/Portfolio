@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-size: large;
   background-color: var(--b-main);
 }
 
@@ -55,17 +56,17 @@ a {
   justify-content: space-evenly;
   align-content: space-evenly;
   flex-wrap: wrap;
-  width: 100%;
+  width: 80%;
 }
 
 .dev-card-container {
   background-color: var(--b-main);
   color: var(--t-highlight);
-  padding: 0.1em;
+  padding: 0.2em;
   margin: 4em;
   
   display: flex;
-  max-width: 40%;
+  /* max-width: 40%; */
   align-content: center;
   overflow: scroll;
 
@@ -160,27 +161,23 @@ a {
 
 .icon {
   margin: 1em;
-  /* flex-grow: 1; */
   flex-basis: 1;
 }
 
 .float {
   padding: 1em;
-  /* background-color: #ffffff; */
   box-shadow: 0.3em 0.5em 8px black;
   background-color: var(--b-highlight);
-
   border-radius: 5px;
 }
 
 .background-thread {
-  background-image: linear-gradient(to right, var(--b-main) 54%, var(--b-main-mask), var(--b-main) 80%), url("/Users/user/codeclan_work/git_portfolio/src/images/chevrons_full_width.png");
+  background-image: linear-gradient(to right, var(--b-mid-shadow) 0% 10%, var(--b-main) 54%, var(--b-main-mask), var(--b-main) 80%, var(--b-mid-shadow) 90%), url("/Users/user/codeclan_work/git_portfolio/src/images/chevrons_full_width.png");
   background-repeat: repeat-y;
   filter: grayscale(20%);
   /* drop-shadow(1em 2em 2em black inset); */
   background-attachment: fixed;
   margin-top: 1rem;
-  background-position-x: 33%;
   background-size: 100%;
   
 
