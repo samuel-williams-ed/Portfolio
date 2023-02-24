@@ -77,8 +77,6 @@ a {
 }
 
 .dev-card-container:hover {
-  color: white;
-  background-color: rgba(136, 168, 196, 0.51);
   box-shadow: 0.2em 0.2em 6px var(--b-shadow);
 }
 
