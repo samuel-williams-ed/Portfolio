@@ -8,9 +8,9 @@ import { useEffect } from "react"
 
 const HomePage = () => {
 
-    const [devs, setDevs] = useState([])
-    const [friends, setFriends] = useState([])
     const [projects, setProjects] = useState([])
+// code examples
+    const [devs, setDevs] = useState([])
 
     // set developers data from local file
     useEffect(() => {

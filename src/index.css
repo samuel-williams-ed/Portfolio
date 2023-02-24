@@ -15,6 +15,7 @@ code {
 
 :root {
   --b-highlight: #8ecae6; /* Light Blue */
+  --b-highlight-mask: #8ecae67c; /* Light Blue */
   --b-mid: #219ebc; /* Mid Blue */
   --b-main: #023047; /* Dark Blue */
   --b-main-shadow: #0230471f; /* Dark Blue v see through */
