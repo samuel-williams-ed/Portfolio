@@ -8,7 +8,8 @@
   position: sticky;
   top: 0px;
   z-index: 10;
-  height: 5rem;
+  min-height: 5rem;
+  padding: 2rem;
 
   /* from left, from top */
   clip-path: polygon(
@@ -21,7 +22,6 @@
 
   background-color: var(--b-highlight);
   color: var(--b-main);
-
 
   display: flex;
   justify-content: space-evenly;
