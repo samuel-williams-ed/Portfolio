@@ -1,16 +1,20 @@
+import styled from "styled-components"
 
 
 const MenuBar = () => {
     return (
         <>
-            <div className="menu-bar float">
-                <div className="menu-button">Menu</div>
-                <div className="menu-button">Projects</div>
-                <div className="menu-button">Experience</div>
-                <div className="menu-button">About</div>
-            </div>
+            <ol className="menu-bar float">
+                <Li className="menu-button"><h2>About</h2></Li>
+                <Li className="menu-button"><h2>Projects</h2></Li>
+                <Li className="menu-button"><h2>Experience</h2></Li>
+            </ol>
         </>
     )
 }
+
+const Li = styled.li`
+    list-style: none;
+`
 
 export default MenuBar
