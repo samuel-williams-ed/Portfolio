@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3eb08771.css",
-    "main.js": "/Portfolio/static/js/main.8ace7602.js",
+    "main.css": "/Portfolio/static/css/main.d710492a.css",
+    "main.js": "/Portfolio/static/js/main.16300923.js",
     "static/js/787.bb59487b.chunk.js": "/Portfolio/static/js/787.bb59487b.chunk.js",
     "static/media/TopTrumpsMMAScreenshot.png": "/Portfolio/static/media/TopTrumpsMMAScreenshot.2ed4661bba5cb2061b0b.png",
     "static/media/CodeTravellerScreenshot.png": "/Portfolio/static/media/CodeTravellerScreenshot.e2c8133526c1b9d664d8.png",
@@ -12,12 +12,12 @@
     "static/media/chevrons_full_width.png": "/Portfolio/static/media/chevrons_full_width.af4636cb80f5c0244db0.png",
     "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
-    "main.3eb08771.css.map": "/Portfolio/static/css/main.3eb08771.css.map",
-    "main.8ace7602.js.map": "/Portfolio/static/js/main.8ace7602.js.map",
+    "main.d710492a.css.map": "/Portfolio/static/css/main.d710492a.css.map",
+    "main.16300923.js.map": "/Portfolio/static/js/main.16300923.js.map",
     "787.bb59487b.chunk.js.map": "/Portfolio/static/js/787.bb59487b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3eb08771.css",
-    "static/js/main.8ace7602.js"
+    "static/css/main.d710492a.css",
+    "static/js/main.16300923.js"
   ]
 }
