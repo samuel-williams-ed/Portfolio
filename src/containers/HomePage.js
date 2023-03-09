@@ -6,6 +6,7 @@ import MenuBar from "./MenuBar"
 import LocalData from "../data/LocalData"
 import { useEffect } from "react"
 
+
 const HomePage = () => {
 
     const [projects, setProjects] = useState([])
@@ -23,7 +24,7 @@ const HomePage = () => {
     // ######################### //
 
     return (
-        <>
+        <div className="App">
         <MenuBar/>
         <div className="background-thread">
             
@@ -54,7 +55,7 @@ const HomePage = () => {
                 <div className="empty-space"/>
             </div>
         </div>
-        </>
+        </div>
     )
 }
 
